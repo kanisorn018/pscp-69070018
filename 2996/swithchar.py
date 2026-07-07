@@ -1,2 +1,4 @@
-x = str(input())
-print(x[::-1].lower())
+"""สลับตัวอักษรและกลับด้าน"""
+x = input()
+y = x.lower()
+print(y[::-1])
